@@ -1,0 +1,611 @@
+/* CSS Document */
+
+/* 
+Background: #4d4d4d
+
+Primary Orange: #fe9f27
+Secondary Orange: #ffc340
+
+.trek-or-pp-txt { color: rgb(255,197,0) !important; }
+.trek-or-ff-txt { color: rgb(156,195,0) !important; }
+.trek-or-ss-txt { color: rgb(72,174,185) !important; }
+*/
+
+.trek-or-p-bg { background-color: #4d4d4d !important; }
+.trek-or-s-bg { background-color: #ffc340 !important; }
+.trek-or-t-bg { background-color: #9c6c00 !important; }
+.trek-gr-p-bg { background-color: #9c9d1e !important; }
+.trek-bl-p-bg { background-color: #658b90 !important; }
+
+.trek-or-pp-txt { color:rgb(247,140,0) !important;}
+.trek-or-p-txt { color: #fe9f27 !important; }
+.trek-or-c-txt { color: #444444 !important; }
+.trek-or-s-txt { color: #ffc340 !important; }
+.trek-or-t-txt { color: #9c6c00 !important; }
+.trek-gr-p-txt { color: #9c9d1e !important; }
+.trek-bl-p-txt { color: #658b90 !important; }
+
+.trek-email-txt {color: #444444;}
+.trek-twitter-txt { color: #1dcaff; }
+.trek-facebook-txt { color: #3b5998; }
+.trek-pinterest-txt { color: #bd071d; }
+.trek-instagram-txt { color: #3f729b; }
+
+#mc-embedded-subscribe {margin: 0 auto;}
+
+.popover {  
+    max-width: 50%; 
+    padding: 5px; 
+    background: rgb(200,200,200);
+}
+.popover.bottom .arrow:after {
+  border-bottom-color:rgb(200,200,200);
+}
+
+.popover-content{ 
+    color: black; 
+    font-size: 16px;
+    padding: 5px;
+
+}
+
+
+#imgpopover { padding-right: 15px; margin-bottom: 5px; float: left;}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    min-height: 100%;
+	color: #e5e5e5; 
+	background-color: #4d4d4d;
+    font-family: 'Arimo', sans-serif;
+    position: relative;
+}
+
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5 {
+    font-family: 'Arimo', sans-serif;
+}
+
+a { color: rgb(255,159,0); }
+a:hover, a:active,a:focus { color: #ffc340; }
+
+section, .section {
+	border-top: 10px solid #fe9f27;
+}
+
+.section-header {
+	background-color: #555;
+	color: #fff;
+}
+
+
+.section-header .title {
+	color: #fff;
+	text-decoration: none;
+	font-size: 4em;	
+	font-weight:400;
+	margin: 0.1em 0;
+	display: block;
+}
+
+.section-body {
+	font-size: 1.2em;
+	font-weight: 300;
+	position: relative;
+}
+
+.section-body h3, .section-body h4 {
+	color: #fff;
+}
+
+/* Navbar */
+
+#side-navbar {
+    position: fixed;
+    right: 0;
+    top: 30%;
+    z-index: 2000;
+    font-size: 1.5em;
+}
+
+#side-navbar .nav > li > a {
+   
+}
+
+#side-navbar .nav > li > a:hover,
+#side-navbar .nav > li > a:focus,
+#side-navbar .nav > li > a:active {
+    background: none;
+    color: #fff;
+}
+
+#side-navbar .nav > li.active > a,
+#side-navbar .nav > li.active > a:hover,
+#side-navbar .nav > li.active > a:focus,
+#side-navbar .nav > li.active > a:active {
+    background: none;
+    color: #fff;
+    text-shadow: 0 0 8px rgba(255,255,255,0.7);
+    opacity: 1;
+}
+
+
+/* Focal */
+
+#focal {
+    height: 100%;
+    min-height: 650px;
+    background: #404040 url(../img/bg/worldmap.jpg) center center no-repeat;
+    background-size: auto 100%;
+    position: relative;
+}
+
+#focal .container {
+    height: 100%;
+    position: relative;
+}
+
+#focal .logo { width: 200px; }
+#focal .focal-brand { margin-top: 60px; }
+#focal .focal-brand h3 { font-weight: 400; text-shadow: 0 -1px 0 rgba(0,0,0,0.6);  text-transform: uppercase; }
+
+.focal-nav {
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 30px;
+    padding: 0; margin: 0;
+}
+
+.focal-nav li {
+    font-size: 4em;
+}
+
+.focal-nav li a {
+    text-decoration: none; 
+    text-shadow: 0 0 20px rgba(0,0,0,0.2), 0 -1px 0 rgba(0,0,0,0.8);
+}
+
+.focal-nav.list-inline > li {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.focal-text {
+    display: block;
+    font-size: 0.35em;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+.focal-text .focal-hero {
+    display: block;
+    font-size: 2.1em;
+    font-weight: 400;
+}
+
+/* Plan Your Way Section */
+
+#plan {
+     background: url(../img/bg/BGside.jpg) repeat;
+    background-size: 45%;
+}
+
+#plan .section-body > .container {
+
+	padding: 0 150px;
+}
+
+#plan .section-body > .container  > .container-fluid {
+	background-color: #2e2e2e;
+	padding: 0;
+}
+#plan .conclusion {
+    margin-bottom: 30px;   
+}
+#vertical {
+    padding-top: 60px;
+}
+/* Find Your Way Section */
+#find {
+    background: url(../img/bg/SFlinework2-1.jpg) repeat;
+    background-size: 13%;
+}
+#find .section-body .section-block {
+	height: 500px;
+}
+
+#find .section-body .section-block p {
+	position: absolute;
+    display: block;
+	bottom: 0; left: 0; right: 0;
+    padding:  180px 60px;
+}
+
+
+#find_guidebooks {
+	background: url(../img/find/findyourway-frontview.png) center right no-repeat;
+    background-color:#bdbdbd; 
+	background-size: 100% auto;
+	position: relative;
+   margin-top: 0px;
+}
+
+#find_guidebooks p {
+	color: #222;
+}
+
+#find_explore {
+    background-color:rgb(222,222,222);
+}
+#find_explore p {
+    color: rgb(77,77,77);
+}
+
+.text-guidebooks {
+    font-size: 2em;
+    }
+
+/* Share */
+#share {
+    background: url(../img/bg/sBGshare.jpg) top no-repeat;
+    background-size: 100%;
+}
+#share .section-block {
+    height: 500px;   
+    background: url(../img/share/sharecrop.png) bottom center no-repeat;
+    background-size: 42%;
+}
+
+#share .row > div {
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+/* Contact */
+#contact .row { margin:60px 0 0px; text-align: center; padding-bottom: 40px;}
+.logo-container { margin: 0 auto;}
+#contact .logo { width: 150px; margin: 0 auto;}
+#contact .section-body {background: rgb(222,222,222);}
+#contact .row p, #contact .row h2 { color: rgb(77,77,77);}
+
+/* Footer */
+
+#footer {
+    padding: 0px 0 66px;
+    margin-top: 0px;
+    background: url(../img/bg/SFlinework_banner2.jpg) top left repeat;
+    background-size: 45% auto;
+    position: relative;
+}
+
+.footer-contact {
+    padding: 6px 0 1px;
+    background-color: rgb(255,159,0);
+    margin: 0;
+}
+
+.footer-contact h2 {
+    margin-top: 0;
+}
+
+.footer-copy {
+    padding: 5px 0;
+    background: rgb(77,77,77);
+    color: rgb(255,159,0);
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+}
+
+/* Bootstrap Override */
+
+.img-thumbnail {
+    border-radius: 0;
+    padding: 0;
+    margin: 4px;
+    border: 0px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    width: 42%;
+}
+
+.jumbotron { background: none; }
+
+.btn-default {
+  color: #fe9f27;
+  background-color: rgba(0,0,0,0.2);
+  border-color: #fe9f27;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #ffc340;
+  background-color: rgba(0,0,0,0.3);
+  border-color: #ffc340;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  background-color: transparent;
+  border-color: #9c6c00;
+}
+.btn-default .badge {
+  color: #fff;
+  background-color: #fe9f27;
+}
+
+/* Utility */
+.row.no-offset {
+	margin-left: 0;
+    margin-right: 0;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+[class*='col-'].no-gutter {
+	padding-left:0;
+	padding-right:0;
+}
+
+.bg-white {
+	background-color: #fff;	
+	color: #333;
+}
+
+.bg-gray {
+    background-color: #bdbdbd;  
+    color: #333;
+}
+
+.bg-left {
+	position: absolute;
+	left: 0; right: 50%;
+	top: 0; bottom: 0;
+}
+
+.bg-right {
+	position: absolute;
+	left: 50%; right: 0;
+	top: 0; bottom: 0;
+}
+
+.text-large {
+	font-size: 1.4em;	
+}
+
+.text-jumbo {
+	font-size: 1.8em;	
+}
+
+input{
+   text-align:center;
+}
+/* Media */
+
+@media (max-width: 440px) {
+
+    .section-body { font-size: 1.0em; }
+    .section-header .title { font-size: 2.0em; }
+    #side-navbar { display: none; }
+
+    #focal { min-height: 500px; }
+    
+    #focal .logo { width: 150px; }
+    #focal .focal-brand h2 { font-size: 1.5em; }
+    #focal .focal-brand h3 { font-size: 23px; }
+    
+    .focal-nav li { font-size: 2.1em; }
+    .focal-nav.list-inline > li {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #plan .section-body > .container { padding:0px; text-align: center}
+    #plan .row { margin: 0px;}
+    #plan .section-body > .container .text-right { text-align: center;}
+    #plan .section-body > .container p { padding-bottom: 13px;}
+    
+    #find .section-body .section-block { height: 250px; background-size: auto 95%; background-position: center; margin: 0; }
+    #find .section-body .section-block p { bottom: auto; top: 0; padding:  25px 30px;}
+    #find_explore { padding: 20px;}
+    #share .row > div { margin-top: 20px; }
+    
+    #share .section-block {
+        height: 510px;   
+        background-size: 460px auto;
+    }
+    .img-responsive { width: 100%;}
+     #share {
+    background: url(../img/bg/sBGshare.jpg) bottom no-repeat;
+    background-size: 100%;
+    }
+
+    .img-thumbnail { width: 25%; }
+    #share .section-body .section-block { height: 730px; background-size: auto 45%; background-position: bottom center; text-align: center}
+    #share .section-body .section-block p { padding: 0 20px; }
+    #share .section-body .section-block br {display: none;}
+    #share .row > div {
+    margin-top: 10px;
+    padding-left: 20px;
+    }
+    .text-guidebooks {
+    font-size: 2em;
+    }
+    #vertical {
+    padding-top: 0px;
+    }
+    #contact .logo { width: 95px; margin-bottom: -35px;}
+    #contact .row { margin-top: 20px; padding-bottom: 20px;}
+}
+@media  (min-width: 441px) and (max-width: 767px) {
+    
+    .section-body { font-size: 1.0em; }
+    .section-header .title { font-size: 2.5em; }
+    
+    #side-navbar { display: none; }
+    
+    #focal { min-height: 500px; }
+    
+    #focal .logo { width: 150px; margin-top: -35px;}
+    #focal .focal-brand h2 { font-size: 1.5em; }
+    
+    .focal-nav li { font-size: 2.1em; }
+    .focal-nav.list-inline > li {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    #plan .section-body > .container { padding:0px; text-align: center}
+    #plan .row { margin: 0px;}
+    #plan .section-body > .container .text-right { text-align: center;}
+    #plan .section-body > .container p { padding-bottom: 14px;}
+
+    #find .section-body .section-block { height: 400px; background-size: auto 95%; background-position: center; margin: 0; }
+    #find .section-body .section-block p { bottom: auto; top: 0; padding:  25px 30px;}
+    #find_explore { padding: 20px;}
+    #share .row > div { margin-top: 20px; }
+    
+    #share .section-block {
+        height: 510px;   
+        background-size: 260px auto;
+    }
+    .img-responsive { width: 100%;}
+     #share {
+    background: url(../img/bg/sBGshare.jpg) bottom no-repeat;
+    background-size: 100%;
+    }
+
+    .img-thumbnail { width: 13%; }
+    #share .section-body .section-block { height: 580px; background-size: auto 55%; background-position: bottom center; text-align: center}
+    #share .section-body .section-block p { padding: 0 20px; }
+    #share .section-body .section-block br {display: none;}
+    #share .row > div {
+    margin-top: 10px;
+    padding-left: 20px;
+    }
+    .text-guidebooks {
+    font-size: 2em;
+    }
+    #vertical {
+    padding-top: 0px;
+    }
+    #contact .logo { width: 120px; margin-bottom: -40px;}
+    #contact .row { margin-top: 40px; padding-bottom: 20px;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .section-body { font-size: 1.0em; }
+    
+    #focal { min-height: 550px; }
+    
+    #focal .logo { width: 200px; }
+    #focal .focal-brand h2 { font-size: 1.8em; }
+    
+    .focal-nav li { font-size: 3.5em; }
+    .focal-nav.list-inline > li {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    #plan .section-body > .container { padding: 0 30px; }
+    
+    #find .section-body > .container { width: 100%;}
+    #find .section-body .section-block { height: 350px; }
+    #find .section-body .section-block p { padding:  75px 50px;  }
+    
+    #share .section-block {
+        height: 340px;   
+        background-size: auto 300px;
+    }
+    .logo-container { padding: 10px 0px;}
+    .text-guidebooks {
+    font-size: 2em;
+    }
+    #vertical {
+    padding-top: 0px;
+    }
+    #contact .logo { width: 120px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #plan .section-body > .container { padding: 0 60px; }
+    
+    #find .section-body > .container { width: 100%;}
+    #find .section-body .section-block { height: 400px; }
+    #find .section-body .section-block p { padding:  110px 50px;  }
+    
+    
+    #share .section-block {
+        height: 440px;   
+        background-size: auto 400px;
+    }
+    .logo-container { padding: 10px 20px;}
+
+    .section-header .title {
+    font-size: 3em; 
+    font-weight:400;
+    margin: 0.1em 0;
+    display: block;
+    }
+    .text-guidebooks {
+    font-size: 2em;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    
+
+}
+
+@media (min-width: 1919px) and (min-height: 922px) {
+    #focal .focal-brand { margin-top: 200px; }
+}
+@media (min-width: 1023px) and (min-height: 767px) {
+    #focal .focal-brand { margin-top: 130px; }
+    #focal { min-height: 300px; }
+}
+
+@media (min-width: 767px) and (min-height: 1023px) {
+    #focal .focal-brand { margin-top: 300px; }
+}
+
+@media (min-width: 413px) and (min-height: 735px) {
+    #focal .focal-brand { margin-top: 200px; }
+}
+@media (max-width: 413px) and (max-height: 554px) {
+    #focal { min-height: 560px; }
+    #focal .focal-brand h3 { font-size: 22px; }
+}
+@media (max-width: 568px) and (max-height: 374px) {
+    #focal .focal-brand { margin-top: 0px; }
+}

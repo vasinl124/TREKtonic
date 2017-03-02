@@ -1,0 +1,59 @@
+#thankyou { 
+	border-top: 0px solid #fe9f27;
+	height: 100%;
+	min-height: 650px;
+    background: #404040 url(../img/bg/worldmap.jpg) center center no-repeat;
+    background-size: auto 100%;
+    position: relative;
+
+}
+
+#thankyou .container {
+    height: 100%;
+    position: relative;
+}
+
+
+#thankyou .row {
+	margin-top: 0px; 
+	border-top: 10px solid #fe9f27; 
+	background: gray;
+	padding-bottom: 50px;
+}
+#thankyou .logo { width: 150px; }
+
+h2 { font-weight: 400; font-size: 35px; color:#fe9f27;  }
+h1 { font-weight: 700; font-size: 55px;}
+
+#thankyou [class*='col-'] {
+	border-radius: 15px; 
+	height: 170px; 
+	width: 300px;
+	background: white;
+	margin: 80px 30px 0 ;
+	padding-top: 25px;
+}
+
+#thankyou .focal {
+    position: relative;
+    padding: 0; margin: 0;
+}
+
+#thankyou .focal h3{ color: black; line-height:160%;}
+#thankyou .focal p{ font-size: 18px; text-align: left; padding-left: 45px}
+.list-img {
+ 	width: 150px;
+	position:absolute;
+	left:75px;
+	top:-75px;
+ }
+
+@media (max-width: 991px) {
+h2 { font-weight: 400; font-size: 30px; color:#fe9f27;  }
+h1 { font-weight: 700; font-size: 45px;}
+}
+
+@media (max-width: 767px) {
+h2 { font-weight: 400; font-size: 25px; color:#fe9f27;  }
+h1 { font-weight: 700; font-size: 35px;}
+}

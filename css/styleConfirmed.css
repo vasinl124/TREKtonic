@@ -1,0 +1,103 @@
+#confirmed { 
+	border-top: 0px solid #fe9f27;
+	height: 100%;
+	min-height: 650px;
+    background: #404040 url(../img/bg/worldmap.jpg) center center no-repeat;
+    background-size: auto 100%;
+    position: relative;
+
+}
+
+#confirmed .container-fluid {
+    height: 100%;
+    position: relative;
+    margin-top: -10px;
+}
+
+
+#confirmed .row {
+	margin-top: 0px; 
+	border-top: 10px solid #fe9f27; 
+	background: gray;
+	padding-bottom: 0px;
+}
+#confirmed .logo { width: 80px; }
+
+h2 { font-weight: 400; font-size: 25px; color:white; }
+h1 { font-weight: 700; font-size: 55px; color:#fe9f27; line-height:70%; }
+h3{ font-weight: 400; font-size: 18px;  color: white; line-height:200%;}
+p{ font-size: 18px; text-align: left; }
+
+.trek-black {color:black;}
+.trek-big { font-size: 35px;}
+
+.trek-download-jumbo { font-size: 70px;}
+
+.focal [class*='col-'] {
+	border-radius: 0px; 
+	height: 300px; 
+	margin: 0px 15px 0;
+	padding: 0px;
+	overflow: hidden;
+}
+.container-gray {
+	background: #444444;
+	width:100%;
+	padding: 0;
+	margin: 0 auto;
+}
+.container-orange {
+	background: #fe9f27;
+	width:100%;
+	padding: 0 0 40px 0;
+	margin: -25px auto;
+}
+.sharebutton i{ color:  white; font-size: 40px; line-height: 140%;}
+.sharebutton [class*='col-'] {
+	width: 300px;
+	height: 70px; 
+}
+.btn-warning { background: rgb(77,77,77)}
+.btn-warning:hover {background: rgb(64,64,64);}
+
+.bg-white { padding: 30px;}
+#confirmed .focal {
+    position: relative;
+    padding: 0; margin: 0;
+}
+
+.list-img {
+ 	width: 150px;
+	position:absolute;
+	left:75px;
+	top:-75px;
+ }
+.social {
+	width: 25em;
+	margin: 5px 5px;
+}
+.social ul.social-buttons {
+margin: 0;
+padding: 0;
+overflow: hidden;
+background: none;
+list-style-type: none;
+}
+
+.social span { font-size: 25px; line-height: 100%}
+.social i { font-size: 30px; letter-spacing: 20px;}
+
+.footer-contact {
+	margin: 0 auto; 
+}
+
+
+@media (max-width: 991px) {
+h2 { font-weight: 400; font-size: 30px; color:#fe9f27;  }
+h1 { font-weight: 700; font-size: 45px; }
+}
+
+@media (max-width: 767px) {
+h2 { font-weight: 400; font-size: 25px; color:#fe9f27;  }
+h1 { font-weight: 700; font-size: 35px;}
+}

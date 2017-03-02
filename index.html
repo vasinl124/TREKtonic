@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width; initial-scale=1.0;">
+<meta name="description" content="Trip Planning Mobile App. Easy way to plan the trip in your style.">
+<meta name="keyword" content="Trip,Planning,Travel,Itinerary, anytime trip">
+<meta name="author" content="TREKtonic">
+<link rel="icon" href="img/logoonly-orange.ico">
+<title>TREKtonic - Visual trip planning tool that helps you plan trips based on your style.</title>
+
+<link rel="stylesheet" type="text/css" href="lib/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" >
+
+<!-- Font -->
+<link href='http://fonts.googleapis.com/css?family=Arimo:400,700|Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+
+<!--Fontello-->
+<link rel="stylesheet" href="css/fontello.css">
+
+<!--Mailchimp-->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+    
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!--Google Analytic--> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53912807-2', {'allowAnchor': true});
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
+</script>
+
+
+</head>
+<body data-spy="scroll" data-target="#side-navbar">
+<!--NAVBAR-->
+<div id="side-navbar">
+	<ul class="nav nav-stacked" >
+		<li><a href="#focal"><i class="icon-logoincircle"></i></a></li>
+		<li><a href="#plan"><i class="icon-footer-plan-icononly-update-1"></i></a></li>
+		<li><a href="#find"><i class="icon-footer-find-icononly"></i></a></li>
+		<li><a href="#share"><i class="icon-footer-share-icononly-update2"></i></a></li>
+        <li><a href="#contact"><i class="icon-2about-us"></i></a></li>
+	</ul>
+</div>
+<!--/NAVBAR-->     
+
+<!--BANNER-->
+<section id="focal">
+    <div class="container text-center">
+        <div class="focal-brand">
+            <h1><img class="logo" src="img/TREKtonic-logo_1500sq.png" alt="TREKtonic Logo"></h1>
+            <h3 style="uppercase; font-weight: 700;"> Visual trip planning tool <br>that helps you plan trips based on your style.</h3> <br>
+
+  <div class="row">
+  <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 hidden-xs">
+<div id="mc_embed_signup" class="popoverad">
+<form action="//trektonic.us9.list-manage.com/subscribe/post?u=b1987670b8f559efd418e7d79&amp;id=777c6cd89c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div class='input-group'>
+            <input type="email" value="" name="EMAIL" class="required email form-control input-lg" placeholder="Email address"id="mce-EMAIL" style="border: 0px;" >
+            <span class="input-group-btn">
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"class="btn btn-warning btn-lg" onclick="ga('send', 'event', 'subscribe-top', 'clicked');">Get FREE Early Access</button>
+            </span>
+            
+     </div>
+  </form>
+  </div>
+
+
+  </div><!-- /.col-lg-12 -->
+
+    <div class="col-xs-10 col-xs-offset-1 visible-xs">
+<div id="mc_embed_signup" class="popoverad">
+<form action="//trektonic.us9.list-manage.com/subscribe/post?u=b1987670b8f559efd418e7d79&amp;id=777c6cd89c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div >
+            <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email address"id="mce-EMAIL">
+            <div style="padding-top: 5px;" style="border: 0px;">
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"class="btn btn-warning" onclick="ga('send', 'event', 'subscribe-top', 'clicked');">Get FREE Early Access</button>
+            </div>
+
+     </div>
+  </form>
+  </div>
+  </div><!-- /.col-lg-12 -->
+</div><!-- /.row -->
+                    
+            
+        </div>
+        <ul class="list-inline focal-nav">
+            <li>
+                <a href="#plan">
+                    <i class="icon-footer-plan-icononly-update-1"></i>
+                    <div class="focal-text text-uppercase"><span class="focal-hero">Plan</span> Your Way</div>
+                </a>
+            </li>
+            <li>
+                <a href="#find">
+                    <i class="icon-footer-find-icononly"></i>
+                    <div class="focal-text text-uppercase"><span class="focal-hero">Find</span> Your Way</div>
+                </a>
+            </li>
+            <li>
+                <a href="#share">
+                    <i class="icon-footer-share-icononly-update2"></i>
+                    <div class="focal-text text-uppercase"><span class="focal-hero">Share</span> Your Way</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+<!--/BANNER--> 
+    
+<!--PLAN YOUR WAY-->
+<section id="plan">
+	<div class="section-header trek-or-t-bg">
+		<div class="container">
+			<div class="title"><i class="icon-footer-plan-icononly-update-1"></i> Plan Your Way</div>
+		</div>
+	</div>
+	<div class="section-body">
+		<div class="container">
+			<div class="container-fluid">
+				<div class="row no-offset">
+					<div class="col-sm-6 col-xs-12 no-gutter">
+						<img class= "img-responsive" src="img/plan/plan1.jpg" alt="Trip Organizer">
+					</div>
+					<div class="col-sm-6 col-xs-12" >
+						<div class="col-md-12 col-sm-11" id="vertical">
+							<h3>One Simple App Handles All</h3>
+							<p>Organize all your traveling data in one place. Collaborating with friends is easier than ever.</p>
+						</div>
+						<div class="col-md-3 col-sm-1"></div>
+					</div>
+				</div>
+				<div class="row no-offset">
+                    <div class="col-sm-6 visible-xs no-gutter">
+						<img class= "img-responsive" src="img/plan/plan2.jpg" alt="Inspirations">
+					</div>
+					<div class="col-sm-6">			
+						<div class="col-md-3 col-sm-1"></div>
+						<div class="col-md-9 col-sm-12 text-right">
+							<h3>Get Inspired</h3>
+							<p>By other travelers across the world with similar interests. Create an itinerary that fits your needs</p>
+						</div>
+					</div>
+					<div class="col-sm-6 hidden-xs no-gutter">
+						<img class= "img-responsive" src="img/plan/plan2.jpg" alt="Inspirations">
+					</div>
+				</div>
+				<div class="row no-offset no-gutter">
+					<div class="col-xs-6 col-middle"><img src="img/plan/plan3.jpg" style="width: 100%"></div>
+					<div class="col-xs-6 col-middle"><img src="img/plan/plan4.jpg" style="width: 100%"></div>
+				</div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h3>Mix &amp; Tune Your Styles</h3>
+                        <p>and we will pick places for you (of course, based on your interests). Your trip is visualized.</p>
+                        <h3 class="trek-or-p-txt conclusion">Organized | Inspired | Personalized </h3>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--/PLAN YOUR WAY--> 
+
+<!--FIND YOUR WAY-->
+<section id="find">
+	<div class="section-header trek-gr-p-bg">
+		<div class="container">
+			<div class="title"><i class="icon-footer-find-icononly"></i> Find Your Way</div>
+		</div>
+	</div>
+	<div class="section-body">
+		<div class="bg-left  hidden-xs"></div>
+		<div class="bg-right hidden-xs"></div>
+		<div class="container">
+			<div class="row">
+				<div id="find_guidebooks" class="col-sm-6 section-block">
+				</div>
+				<div id="find_explore" class="col-sm-6 hidden-xs section-block">
+      
+					<p> <span class="text-guidebooks">No more thick guidebooks</span> <br><br><span class="text-jumbo">Explore</span> the destinations using your offline <span class="trek-or-pp-txt">itineraries</span> anytime during the trip. It is your personal guidebook you can browse on your phone or e-mail to your tablet.</p>
+				</div>
+        <div id="find_explore" class="col-sm-6 visible-xs text-center ">
+          <p> <span class="text-guidebooks">No more thick guidebooks</span> <br><span class="text-jumbo">Explore</span> the destinations using your offline <span class="trek-or-pp-txt">itineraries</span> anytime during the trip. It is your personal guidebook you can browse on your phone or e-mail it to your tablet.</p>
+        </div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--/FIND YOUR WAY-->
+
+<!--SHARE YOUR WAY-->
+<section id="share">
+    <div class="section-header trek-bl-p-bg">
+		<div class="container">
+			<div class="title"><i class="icon-footer-share-icononly-update2"></i> Share Your Way</div>
+		</div>
+	</div>
+    <div class="section-body">
+        <div class="container">
+            <div class="row section-block">
+                <div class="col-sm-4">
+                    <img src="img/share/photos/goldengate.jpg" class="img-thumbnail" alt="Goldengate Bridge">
+                    <img src="img/share/photos/timesqs.jpg" class="img-thumbnail" alt="Time Square NYC">
+                    <img src="img/share/photos/redrocksq.jpg" class="img-thumbnail" alt="Redrocks Denver">
+                    <img src="img/share/photos/jomclarion.jpg" class="img-thumbnail" alt="Clarion SF">
+                    <img src="img/share/photos/chicago.jpg" class="img-thumbnail" alt="Garden South of Art Institute Chicago">
+                    <img src="img/share/photos/highline1sq.jpg" class="img-thumbnail" alt="Highline NYC">
+                </div>
+                <div class="col-sm-4 hidden-xs">
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <p>Have your friends ever asked you to share your recommendation about the city you went to? but you could not or have no time to find your information to share?</p>
+                    <br>
+                    <p><span class="text-jumbo">Share</span> your <span class="trek-or-p-txt">itineraries </span> to your friends in just a click anytime or just share your moments on social media.</p>
+                    <p><i class="fa fa-envelope-o"></i> <i class="fa fa-twitter"></i> <i class="fa fa-facebook"></i> <i class="fa fa-pinterest"></i> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/SHARE YOUR WAY-->
+    
+<!--CONTACT-->
+<section id="contact">
+    <div class="section-body">
+        <div class="container">
+            <div class="row center-block">
+                <div class="col-sm-12">
+                    <div class="logo-container">
+                        <img class="logo img-responsive" src="img/logoonly-2color-01.png">
+                    </div>
+                </div>
+<div class="row">
+                <div class="col-sm-8 col-xs-12 col-sm-offset-2">
+                    <h2>Be the first to use this app !</h2>
+                    <p>Get free early access to our services—just drop us your email address below</p>
+                    </div>
+  <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 hidden-xs">
+<div id="mc_embed_signup" class="popoverad">
+<form action="//trektonic.us9.list-manage.com/subscribe/post?u=b1987670b8f559efd418e7d79&amp;id=777c6cd89c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div class='input-group'>
+            <input type="email" value="" name="EMAIL" class="required email form-control input-lg" placeholder="Email address"id="mce-EMAIL" style="border: 0px;">
+            <span class="input-group-btn">
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"class="btn btn-warning btn-lg" onclick="ga('send', 'event', 'subscribe-top', 'clicked');">Get FREE Early Access</button>
+            </span>
+     </div>
+  </form>
+  </div>
+  </div><!-- /.col-lg-12 -->
+
+    <div class="col-xs-10 col-xs-offset-1 visible-xs">
+  <div id="mc_embed_signup" class="popoverad">
+<form action="//trektonic.us9.list-manage.com/subscribe/post?u=b1987670b8f559efd418e7d79&amp;id=777c6cd89c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div >
+            <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email address"id="mce-EMAIL" style="border: 0px;">
+            <div style="padding-top: 5px;">
+            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"class="btn btn-warning" onclick="ga('send', 'event', 'subscribe-top', 'clicked');">Get FREE Early Access</button>
+            </div>
+
+     </div>
+  </form>
+  </div>
+  </div><!-- /.col-lg-12 -->
+</div><!-- /.row -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/CONTACT-->
+    
+<!--FOOTER-->
+<div id="footer">
+    <div class="footer-contact">
+        <div class="container text-center">
+            <h2 class="trek-or-c-txt">Contact Us</h2>
+            <ul class="list-inline">
+                <li><a href="mailto:info@trektonic.com">
+                    <span class="fa-stack trek-email-txt">
+                        <i class="fa fa-square fa-stack-2x"></i>
+                        <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a></li>
+                <li><a href="https://twitter.com/Trektonic" target="_blank">
+                    <span class="fa-stack trek-twitter-txt">
+                        <i class="fa fa-square fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a></li>
+                <li><a href="https://www.facebook.com/trektonic" target="_blank">
+                    <span class="fa-stack trek-facebook-txt">
+                        <i class="fa fa-square fa-stack-2x"></i>
+                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a></li>
+                <li><a href="http://www.pinterest.com/trektonic/" target="_blank">
+                    <span class="fa-stack trek-pinterest-txt">
+                        <i class="fa fa-square fa-stack-2x"></i>
+                        <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a></li>
+                <li><a href="http://instagram.com/trektonic/" target="_blank">
+                    <span class="fa-stack trek-instagram-txt">
+                        <i class="fa fa-square fa-stack-2x"></i>
+                        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-copy">
+        <div class="container text-center">
+            &copy; 2015 TREKtonic. All Rights Reserved.
+        </div>
+    </div>
+</div>
+<!--/FOOTER--> 
+
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<!-- Latest compiled and minified JavaScript --> 
+<script src="lib/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="js/Scroll.js"></script>
+<script src="js/Collapse.js"></script> 
+<script src="js/share.min.js"></script>
+    
+<script type="text/javascript">
+jQuery(document).ready(function () {
+    var hashtag = /#\S+/
+    jQuery('.menu a').click(function(){
+        var match = jQuery(this).attr('href').match(hashtag);
+        ga('send', 'pageview', location.pathname + match[0]);
+    })
+});
+</script>
+ 
+
+ <script>
+var genericCloseBtnHtml = '<button onclick="$(this).closest(\'div.popover\').prev().popover(\'hide\');" type="button" class="close" aria-hidden="true">&times;</button>';
+
+   $('.popoverad').popover({
+   'placement':'bottom',
+   html: 'true',
+    content :  genericCloseBtnHtml + '<div id="popOverBox"><p><img id="imgpopover" src="img/thumbnailmap.jpg" width="125" height="125" />Sign up for our early access today, get FREE NYC treasure map (dessert & design edition)!!!</p></div>'
+})
+setTimeout(function() {
+  $('.popoverad').popover('show');
+}, 1500);
+
+
+   $('html').on('mouseup', function(e) {
+    if(!$(e.target).closest('.popover').length) {
+        $('.popover').each(function(){
+            $(this.previousSibling).popover('hide');
+        });
+    }
+});
+    </script>
+
+</body>
+</html>
